@@ -7,13 +7,13 @@ import java.util.ArrayList;
 public class Lesson10Two {
 
     private static ArrayList<Integer> solarSystem;
-    static boolean cycle = true;
+
 
     public static void readData() {
         try {
 
             solarSystem = new ArrayList<>();
-            while (cycle) {
+            while (true) {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
                 String inputNumber = reader.readLine();
                 int conversion = Integer.decode(inputNumber);
